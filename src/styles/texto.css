@@ -1,0 +1,95 @@
+.txt {
+  margin: 5px;
+  padding: 5px;
+  border: none;
+  font-size: 24px;
+  overflow: hidden;
+}
+
+.txt-1 {
+  font-family: "Ubuntu", sans-serif;
+  margin: 10px;
+  padding: 5px;
+  border: none;
+  font-size: 24px;
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid orange;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em;
+  /* Adjust as needed */
+  animation: typing 1.5s steps(300, end), blink-caret 1s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: transparent;
+  }
+}
+
+.txt-home {
+  margin: 10px;
+  padding: 5px;
+  border: none;
+  font-size: 20px;
+  overflow: hidden;
+  text-align: justify;
+}
+
+.txt-home2 {
+  margin-left: 3rem;
+  padding: 5px;
+  border: none;
+  font-size: 40px;
+  text-align: justify;
+  font-weight: 550;
+  color: #7C9070;
+}
+
+.txt-cal {
+  padding: 5px;
+  border: none;
+  font-size: 25px;
+  text-align: justify;
+  font-weight: 550;
+}
+
+
+.txt-escribia {
+  margin: 10px;
+  padding: 5px;
+  border: none;
+  font-size: 34px;
+  color: #40513B;
+  overflow: hidden;
+  text-align: justify;
+}
+
+.txt-tips {
+  margin: 0;
+  padding: 5px;
+  border: none;
+  font-size: 20px;
+  overflow: hidden;
+}
